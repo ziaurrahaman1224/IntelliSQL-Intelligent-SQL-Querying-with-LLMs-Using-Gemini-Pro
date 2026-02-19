@@ -1,4 +1,5 @@
 **IntelliSQL: Intelligent SQL Querying with Gemini Pro**
+
 IntelliSQL is a revolutionized database querying tool that bridges the gap between natural language and structured data. By leveraging the Gemini 1.5 Flash model, it allows non-technical users to extract insights from a SQLite database using plain English.
 
 **🚀 Features**
@@ -6,7 +7,7 @@ IntelliSQL is a revolutionized database querying tool that bridges the gap betwe
 
 **Regex Sanitization:** A custom logic layer that cleans AI responses to ensure only valid SQL is executed.
 
-**Interactive Dashboard: **A professional Streamlit interface with dark-mode support and sidebar navigation.
+**Interactive Dashboard:** A professional Streamlit interface with dark-mode support and sidebar navigation.
 
 **Secure Configuration:** API keys are managed safely via .env files and python-dotenv.
 
