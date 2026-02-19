@@ -27,6 +27,7 @@ AI Model: Gemini 1.5 Flash
 **📂 Project Structure**
 
 Plaintext
+
 IntelliSQL/
 ├── .venv/                # Virtual environment [cite: 113]
 ├── Project Files/        # Core application source
@@ -36,7 +37,8 @@ IntelliSQL/
 │   ├── data.db           # SQLite Database [cite: 109]
 │   └── requirements.txt  # Project Dependencies [cite: 122]
 └── README.md             # High-level Documentation [cite: 57, 83]
-⚙️ Setup & Installation
+
+**⚙️ Setup & Installation**
 
 **Clone the Repository:**
 
