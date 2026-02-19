@@ -3,6 +3,7 @@
 IntelliSQL is a revolutionized database querying tool that bridges the gap between natural language and structured data. By leveraging the Gemini 1.5 Flash model, it allows non-technical users to extract insights from a SQLite database using plain English.
 
 **🚀 Features**
+
 **Text-to-SQL Translation:** Converts English questions into precise SQL queries using LLMs.
 
 **Regex Sanitization:** A custom logic layer that cleans AI responses to ensure only valid SQL is executed.
@@ -14,6 +15,7 @@ IntelliSQL is a revolutionized database querying tool that bridges the gap betwe
 **Real-time Results:** Instant rendering of database records in structured data tables.
 
 **🛠️ Technology Stack**
+
 Frontend: Streamlit
 
 Backend: Python, Google Generative AI SDK
@@ -23,6 +25,7 @@ Database: SQLite
 AI Model: Gemini 1.5 Flash
 
 **📂 Project Structure**
+
 Plaintext
 IntelliSQL/
 ├── .venv/                # Virtual environment [cite: 113]
@@ -36,24 +39,29 @@ IntelliSQL/
 ⚙️ Setup & Installation
 
 **Clone the Repository:**
+
 Bash
 eg: git clone https://github.com/Shaik-Mohammad-Ashfaq/IntelliSQL.git
 cd IntelliSQL
 
 **Set up Environment:**
+
 Bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 pip install -r "Project Files/requirements.txt"
 
 **Configure API Key:**
+
 Create a .env file in the Project Files directory and add your key:
 Plaintext
 GOOGLE_API_KEY="your_google_gemini_api_key"
 **Initialize Database:**
+
 Bash
 python "Project Files/sql.py"
 **Run Application:**
+
 Bash
 streamlit run "Project Files/app.py"
 
@@ -68,6 +76,7 @@ streamlit run "Project Files/app.py"
 4.Tammisetty L.P. Kumar: QA Engineer & Documentation 
 
 **⚠️ Known Issues**
+
 Occasional hallucinations on complex multi-table joins if not specified in the schema.
 
 Requires an active internet connection to reach the Gemini API.
