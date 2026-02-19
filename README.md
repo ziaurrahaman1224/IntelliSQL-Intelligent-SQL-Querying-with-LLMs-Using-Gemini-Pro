@@ -58,6 +58,7 @@ pip install -r "Project Files/requirements.txt"
 Create a .env file in the Project Files directory and add your key:
 Plaintext
 GOOGLE_API_KEY="your_google_gemini_api_key"
+
 **Initialize Database:**
 
 Bash
